@@ -1,0 +1,18 @@
+.notpage {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+  justify-content: center;
+}
+
+.textc {
+  display: flex;
+  justify-content: center;
+}
+
+.nimg {
+  height: 400px;
+  width: 400px;
+}

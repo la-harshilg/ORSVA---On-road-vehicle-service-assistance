@@ -1,0 +1,9 @@
+.tarea {
+  border-radius: 10px;
+  resize: none;
+  padding: 5px 5px;
+}
+
+.tarea:focus {
+  border: 2px solid black;
+}

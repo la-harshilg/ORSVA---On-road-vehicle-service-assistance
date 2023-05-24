@@ -1,0 +1,21 @@
+.mechanics {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pagination {
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .mechanics {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+
+@media (min-width: 1200px) {
+  .mechanics {
+    grid-template-columns: repeat(3, max-content);
+  }
+}

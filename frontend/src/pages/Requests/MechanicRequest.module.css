@@ -1,0 +1,103 @@
+.status-pending {
+  height: fit-content;
+  width: fit-content;
+  font-variant: small-caps;
+  background-color: rgb(246, 190, 0);
+  color: black;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.status-cancelled {
+  height: fit-content;
+  width: fit-content;
+  font-variant: small-caps;
+  background-color: darkred;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: auto;
+  font-weight: 500;
+}
+.status-inprogress {
+  height: fit-content;
+  width: fit-content;
+  font-variant: small-caps;
+  background-color: rgb(0, 0, 191);
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.status-completed {
+  height: fit-content;
+  width: fit-content;
+  font-variant: small-caps;
+  background-color: green;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.requestinfo {
+  padding: 5px 5px;
+  margin: auto;
+  border-left: 0.5px solid gray;
+}
+
+.serviceinfo {
+  padding: 5px 5px;
+  margin: auto;
+  border-right: 0.5px solid gray;
+}
+
+.statusbtn {
+  font-size: 15px;
+  margin: auto;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background-color: rgb(1, 103, 204);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.acceptbtn {
+  font-size: 15px;
+  margin: auto;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background-color: rgb(47, 116, 243);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.completebtn {
+  font-size: 13px;
+  margin: auto;
+  padding: 7px 7px;
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.acceptbtn:active {
+  background-color: rgb(0, 65, 186);
+}
+
+.completebtn:active {
+  background-color: rgb(0, 54, 0);
+}
+
+.statusbtn:active {
+  background-color: rgb(0, 70, 141);
+}

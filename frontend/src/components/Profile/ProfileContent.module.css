@@ -1,0 +1,34 @@
+.profile {
+  margin: 10px auto;
+  width: 50%;
+}
+
+.profileinfo {
+  text-align: start;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 20%;
+}
+
+.vehicles {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mechmap {
+  height: fit-content;
+  width: fit-content;
+}
+
+.setprimarybtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.setprimarybtn:active {
+  border: none;
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
